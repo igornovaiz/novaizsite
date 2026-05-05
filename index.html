@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <title>Igor Novaiz</title>
+  <meta name="description" content="Igor Novaiz — Empresário, Entusiasta de Tecnologia e Gamer. Construindo o futuro digital." />
+  <meta name="theme-color" content="#0B0F1A" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Sora:wght@400;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ==================== NAVBAR ==================== -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <div class="inner">
+      <a href="#hero" class="logo">
+        <div class="logo-icon">IN</div>
+        <span class="logo-text">Igor<span class="text-gradient-blue">Novaiz</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="#hero">Inicio</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#gaming">Gaming</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="container" style="padding-top:1rem;padding-bottom:1rem;display:flex;flex-direction:column;gap:0.25rem;">
+      <a href="#hero">Inicio</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#gaming">Gaming</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ==================== HERO ==================== -->
+<section class="hero" id="hero">
+  <!-- Background -->
+  <div class="hero-bg">
+    <img src="images/hero-bg.png" alt="" />
+    <div class="overlay"></div>
+  </div>
+  <!-- Orbs -->
+  <div class="hero-orb orb-1"></div>
+  <div class="hero-orb orb-2"></div>
+  <div class="hero-orb orb-3"></div>
+
+  <!-- Content -->
+  <div class="hero-content container">
+    <!-- Tag -->
+    <div class="hero-tag glass-card" style="margin-top: 80px;">
+      <span class="dot"></span>
+      DISPONIVEL PARA PROJETOS
+    </div>
+
+    <!-- Title -->
+    <h1>
+      <span class="line-1">Igor</span>
+      <span class="line-2 text-gradient-blue">Novaiz</span>
+    </h1>
+
+    <!-- Subtitle -->
+    <p class="hero-subtitle">
+      Empresário. Entusiasta de Tecnologia. <span class="accent">Gamer</span>.<br />
+    </p>
+
+    <!-- Social Links -->
+    <div class="hero-socials">
+      <a href="https://github.com/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="glass-card">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+      </a>
+      <a href="https://linkedin.com/in/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="glass-card">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+      <a href="https://instagram.com/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="glass-card">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Divider -->
+<div class="container"><div class="section-divider"></div></div>
+
+<!-- ==================== ABOUT ==================== -->
+<section class="about" id="sobre">
+  <div class="container">
+    <!-- Section Label -->
+    <div class="section-label reveal">
+      <span class="num">01</span>
+      <span class="line"></span>
+      <span class="text">Sobre Mim</span>
+    </div>
+
+    <div class="about-grid">
+      <!-- Image -->
+      <div class="about-image reveal">
+        <div class="glow-bg"></div>
+        <img src="images/profile-abstract.png" alt="Igor Novaiz — Perfil Digital" />
+        <div class="badge glass-card glow-blue" style="animation:float 4s ease-in-out infinite;">
+          <span class="font-mono" style="color:var(--yellow);font-size:0.75rem;">Novaiz</span>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="about-text reveal">
+        <h2>Visão de negócios. <span class="text-gradient-blue">Execução digital.</span></h2>
+        <p>Sou Igor Novaiz, empresário com forte background em consultoria estratégica.</p>
+        <p>Estou construindo no ambiente digital para explorar o mercado de software, criar MVPs que resolvem problemas reais e compartilhar o passo a passo dessa jornada. A tecnologia é o motor definitivo para escalar qualquer negócio.</p>
+        <p>Acompanhe a construção de um ecossistema focado em inovação, desenvolvimento e resultados.</p>
+        <!-- Stats -->
+        <div class="about-stats">
+          <div class="stat glass-card reveal">
+            <svg class="icon blue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+            <div class="label">Empresario</div>
+            <div class="value">Ativo</div>
+          </div>
+          <div class="stat glass-card reveal">
+            <svg class="icon purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <div class="label">Tecnologia</div>
+            <div class="value">Entusiasta</div>
+          </div>
+          <div class="stat glass-card reveal">
+            <svg class="icon yellow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" x2="10" y1="12" y2="12"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="15" x2="15.01" y1="13" y2="13"/><line x1="18" x2="18.01" y1="11" y2="11"/><rect width="20" height="12" x="2" y="6" rx="2"/></svg>
+            <div class="label">Hobby</div>
+            <div class="value">Gamer</div>
+          </div>
+          <div class="stat glass-card reveal">
+            <svg class="icon blue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            <div class="label">Projetos</div>
+            <div class="value">Em Crescimento</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Divider -->
+<div class="container"><div class="section-divider purple"></div></div>
+
+<!-- ==================== SKILLS ==================== -->
+<section class="skills" id="skills">
+  <div class="skills-bg-accent"></div>
+  <div class="container" style="position:relative;">
+    <!-- Section Label -->
+    <div class="section-label reveal">
+      <span class="num">02</span>
+      <span class="line"></span>
+      <span class="text">Habilidades</span>
+    </div>
+
+    <h2 class="section-title reveal">O que eu <span class="text-gradient-blue">trago para a mesa</span></h2>
+
+    <!-- Skills Grid -->
+    <div class="skills-grid">
+      <!-- Card 1: Negocios -->
+      <div class="skill-card glass-card reveal">
+        <div class="card-header">
+          <div class="card-icon bg-blue">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="20" y2="10"/><line x1="18" x2="18" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="16"/></svg>
+          </div>
+          <h3 class="card-title">Negocios & Gestao</h3>
+        </div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Empreendedorismo</span><span class="bar-pct">90%</span></div><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div></div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Gestao de Clientes</span><span class="bar-pct">85%</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Solucoes Veiculares</span><span class="bar-pct">95%</span></div><div class="bar-track"><div class="bar-fill" style="width:95%"></div></div></div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Planejamento Estrategico</span><span class="bar-pct">80%</span></div><div class="bar-track"><div class="bar-fill" style="width:80%"></div></div></div>
+      </div>
+
+      <!-- Card 2: Tecnologia -->
+      <div class="skill-card glass-card reveal">
+        <div class="card-header">
+          <div class="card-icon bg-purple">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+          </div>
+          <h3 class="card-title">Tecnologia & Software</h3>
+        </div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Desenvolvimento Web</span><span class="bar-pct">90%</span></div><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div></div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Ideação de MVPs</span><span class="bar-pct">87%</span></div><div class="bar-track"><div class="bar-fill" style="width:87%"></div></div></div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Automacao</span><span class="bar-pct">82%</span></div><div class="bar-track"><div class="bar-fill" style="width:82%"></div></div></div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Inteligencia Artificial</span><span class="bar-pct">70%</span></div><div class="bar-track"><div class="bar-fill" style="width:70%"></div></div></div>
+      </div>
+
+      <!-- Card 3: Gaming -->
+      <div class="skill-card glass-card reveal">
+        <div class="card-header">
+          <div class="card-icon bg-yellow">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h3 class="card-title">Marketing</h3>
+        </div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Gestão de Tráfego</span><span class="bar-pct">90%</span></div><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div></div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Criação de Sites</span><span class="bar-pct">87%</span></div><div class="bar-track"><div class="bar-fill" style="width:87%"></div></div></div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Gestão Comercial</span><span class="bar-pct">85%</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">ideias Únicas</span><span class="bar-pct">82%</span></div><div class="bar-track"><div class="bar-fill" style="width:82%"></div></div></div>
+      </div>
+
+      <!-- Card 4: Soft Skills -->
+      <div class="skill-card glass-card reveal">
+        <div class="card-header">
+          <div class="card-icon bg-mixed">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M3.477 10.896a4 4 0 0 1 .585-.396"/><path d="M19.938 10.5a4 4 0 0 1 .585.396"/><path d="M6 18a4 4 0 0 1-1.967-.516"/><path d="M19.967 17.484A4 4 0 0 1 18 18"/></svg>
+          </div>
+          <h3 class="card-title">Soft Skills</h3>
+        </div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Lideranca</span><span class="bar-pct">85%</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Comunicacao</span><span class="bar-pct">80%</span></div><div class="bar-track"><div class="bar-fill" style="width:80%"></div></div></div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Resolucao de Problemas</span><span class="bar-pct">90%</span></div><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div></div>
+        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Aprendizado Continuo</span><span class="bar-pct">95%</span></div><div class="bar-track"><div class="bar-fill" style="width:95%"></div></div></div>
+      </div>
+    </div>
+
+    <!-- Tools -->
+    <div class="tools-row reveal">
+      <p class="label">Ferramentas & Tecnologias</p>
+      <div class="tags">
+        <div class="tag glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+          GitHub
+        </div>
+        <div class="tag glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"/><path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/><path d="M12 2v2"/><path d="M12 22v-2"/><path d="m17 20.66-1-1.73"/><path d="M11 10.27 7 3.34"/><path d="m20.66 17-1.73-1"/><path d="m3.34 7 1.73 1"/><path d="M14 12h8"/><path d="M2 12h2"/><path d="m20.66 7-1.73 1"/><path d="m3.34 17 1.73-1"/><path d="m17 3.34-1 1.73"/><path d="m11 13.73-4 6.93"/></svg>
+          VS Code
+        </div>
+        <div class="tag glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M7 7h10"/><path d="M7 12h10"/><path d="M7 17h10"/></svg>
+          Figma
+        </div>
+        <div class="tag glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
+          AWS
+        </div>
+        <div class="tag glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+          Vercel
+        </div>
+        <div class="tag glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          React
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Divider -->
+<div class="container"><div class="section-divider"></div></div>
+
+<!-- ==================== PROJECTS ==================== -->
+<section class="projects" id="projetos">
+  <div class="container">
+    <!-- Section Label -->
+    <div class="section-label reveal">
+      <span class="num">03</span>
+      <span class="line"></span>
+      <span class="text">Projetos</span>
+    </div>
+
+    <h2 class="section-title reveal">Construindo o <span class="text-gradient-blue">futuro</span>, um projeto de cada vez</h2>
+
+    <div class="projects-grid">
+      <!-- Featured Project -->
+      <div class="project-featured glass-card reveal">
+        <div class="image-wrap">
+          <img src="images/tech-abstract.png" alt="Rede de tecnologia" />
+          <div class="img-overlay"></div>
+          <div class="status-badge glass-card">
+            <span class="dot"></span>
+            <span class="text">Ao Vivo</span>
+          </div>
+        </div>
+        <div class="body">
+          <div class="header">
+            <div class="left">
+              <div class="icon-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+              </div>
+              <h3>igornovaiz.com.br</h3>
+            </div>
+            <a href="https://igornovaiz.com.br" target="_blank" rel="noopener noreferrer" class="link-btn" aria-label="Visitar site">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </div>
+          <p>Meu site pessoal — o hub central da minha presenca digital. Construido com React, Tailwind CSS e hospedado com tecnologia de ponta.</p>
+          <div class="tag-list">
+            <span class="tag">React</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">Framer Motion</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Small Cards Column -->
+      <div style="display:flex;flex-direction:column;gap:1.25rem;">
+        <!-- MVP -->
+        <div class="project-small glass-card reveal">
+          <div class="card-top">
+            <div class="icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+            </div>
+            <span class="status soon">Em Breve</span>
+          </div>
+          <h3>MVP de Software</h3>
+          <p>Projetos de software em desenvolvimento — solucoes inovadoras para problemas reais do mercado brasileiro.</p>
+          <div class="tag-list">
+            <span class="tag">Em Planejamento</span>
+            <span class="tag">Full-Stack</span>
+          </div>
+        </div>
+
+        <!-- Gaming -->
+        <div class="project-small glass-card reveal">
+          <div class="card-top">
+            <div class="icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" x2="10" y1="12" y2="12"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="15" x2="15.01" y1="13" y2="13"/><line x1="18" x2="18.01" y1="11" y2="11"/><rect width="20" height="12" x="2" y="6" rx="2"/></svg>
+            </div>
+            <span class="status soon">Em Breve</span>
+          </div>
+          <h3>Canal de Gaming</h3>
+          <p>Conteudo de eFootball no PS4 — Gameplays, dicas e estratégias para a comunidade brasileira.</p>
+          <div class="tag-list">
+            <span class="tag">eFootball</span>
+            <span class="tag">YouTube</span>
+            <span class="tag">PS4</span>
+          </div>
+        </div>
+
+        <!-- Automacoes -->
+        <div class="project-small glass-card reveal">
+          <div class="card-top">
+            <div class="icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+            </div>
+            <span class="status idea">Ideação</span>
+          </div>
+          <h3>Automacoes & Ferramentas</h3>
+          <p>Ferramentas digitais para otimizar processos — desde automacoes simples ate sistemas completos.</p>
+          <div class="tag-list">
+            <span class="tag">Automacao</span>
+            <span class="tag">APIs</span>
+            <span class="tag">Produtividade</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Divider -->
+<div class="container"><div class="section-divider purple"></div></div>
+
+<!-- ==================== GAMING ==================== -->
+<section class="gaming" id="gaming">
+  <div class="gaming-bg"></div>
+  <div class="container" style="position:relative;">
+    <!-- Section Label -->
+    <div class="section-label reveal">
+      <span class="num">04</span>
+      <span class="line" style="background:var(--purple);"></span>
+      <span class="text">Gaming</span>
+    </div>
+
+    <h2 class="section-title reveal">Além dos negocios, <span style="background:linear-gradient(135deg,var(--purple),var(--blue));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">o jogo continua</span></h2>
+
+    <div class="gaming-grid">
+      <!-- Image -->
+      <div class="gaming-image reveal-left">
+        <div class="glow-bg"></div>
+        <img src="images/gaming-section.png" alt="Controle PlayStation com luzes neon" />
+      </div>
+
+      <!-- Content -->
+      <div class="gaming-content reveal-right">
+        <p>Minha conexão com a tecnologia começou através dos jogos. Tenho uma bagagem que vai desde os rachas no Need For Speed Underground 2 e no GTA San Andreas, passando pelos clássicos do futebol virtual (PES e Bomba Patch), até as arenas online de Clash Royale, Free Fire e eFootball.</p>
+        <p>Sempre joguei por pura paixão, mas agora além de simplesmente jogar, vou começar a compartilhar minhas gameplays com vocês. Preparem-se para muito conteúdo e entretenimento.</p>
+        <div class="gaming-stats">
+          <div class="stat glass-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" x2="10" y1="12" y2="12"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="15" x2="15.01" y1="13" y2="13"/><line x1="18" x2="18.01" y1="11" y2="11"/><rect width="20" height="12" x="2" y="6" rx="2"/></svg>
+            <div class="label">Jogo Principal</div>
+            <div class="value">eFootball</div>
+            <div class="desc">PS4</div>
+          </div>
+          <div class="stat glass-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+            <div class="label">Nivel</div>
+            <div class="value">Intermediário</div>
+            <div class="desc">Ranqueado</div>
+          </div>
+          <div class="stat glass-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <div class="label">Objetivo</div>
+            <div class="value">Comunidade</div>
+            <div class="desc">Conteúdo</div>
+          </div>
+          <div class="stat glass-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="15" x="2" y="7" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>
+            <div class="label">Plataforma</div>
+            <div class="value">PlayStation 4</div>
+            <div class="desc">Console</div>
+          </div>
+        </div>
+
+        <div class="gaming-cta glass-card">
+          <span class="highlight">Em breve:</span> Canal no YouTube com gameplays de eFootball, dicas de estrategia e muito mais. Fique ligado!
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Divider -->
+<div class="container"><div class="section-divider"></div></div>
+
+<!-- ==================== CONTACT ==================== -->
+<section class="contact" id="contato">
+  <div class="contact-bg"></div>
+  <div class="container" style="position:relative;">
+    <!-- Section Label -->
+    <div class="section-label reveal">
+      <span class="num">05</span>
+      <span class="line"></span>
+      <span class="text">Contato</span>
+    </div>
+
+    <h2 class="section-title reveal">Vamos <span class="text-gradient-blue">conversar</span>?</h2>
+
+    <div class="contact-grid">
+      <!-- Info -->
+      <div class="contact-info reveal">
+        <p>Tem uma ideia de projeto, quer trocar uma ideia sobre tecnologia, ou simplesmente bater um papo? Estou sempre aberto a novas conexoes.</p>
+
+        <div class="contact-details">
+          <div class="detail">
+            <div class="icon-wrap glass-card">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div class="info">
+              <div class="label">Email</div>
+              <div class="value">novaizigor@gmail.com</div>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="icon-wrap glass-card">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="info">
+              <div class="label">Localizacao</div>
+              <div class="value">Brasil</div>
+            </div>
+          </div>
+        </div>
+
+        <p class="contact-socials-label">Redes Sociais</p>
+        <div class="contact-socials">
+          <a href="https://github.com/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="glass-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="glass-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://instagram.com/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="glass-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+          </a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+  <div class="top-line"></div>
+  <div class="container">
+    <div class="inner">
+      <div class="brand">
+        <div class="icon">IN</div>
+        <span class="name">Igor<span class="text-gradient-blue">Novaiz</span></span>
+      </div>
+      <p class="copy">
+        &copy; 2026 Igor Novaiz. Feito com
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        e muito cafe.
+      </p>
+      <div class="social-links">
+        <a href="https://github.com/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://instagram.com/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ==================== JAVASCRIPT ==================== -->
+<script>
+// Navbar scroll effect
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 40);
+});
+
+// Mobile menu toggle
+const mobileToggle = document.getElementById('mobileToggle');
+const mobileMenu = document.getElementById('mobileMenu');
+mobileToggle.addEventListener('click', () => {
+  mobileMenu.classList.toggle('open');
+});
+
+// Close mobile menu on link click
+mobileMenu.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => mobileMenu.classList.remove('open'));
+});
+
+// Smooth scroll for all anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+// Intersection Observer for reveal animations
+const observerOptions = { threshold: 0.1, rootMargin: '-50px' };
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, observerOptions);
+
+document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => {
+  observer.observe(el);
+});
+
+// Contact form
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const btn = this.querySelector('.submit-btn');
+  const originalText = btn.innerHTML;
+  btn.innerHTML = 'Enviando...';
+  btn.disabled = true;
+  setTimeout(() => {
+    btn.innerHTML = 'Mensagem Enviada! ✓';
+    btn.style.background = 'linear-gradient(135deg, #22C55E, #16A34A)';
+    setTimeout(() => {
+      btn.innerHTML = originalText;
+      btn.style.background = '';
+      btn.disabled = false;
+      this.reset();
+    }, 2500);
+  }, 1500);
+});
+</script>
+
+</body>
+</html>

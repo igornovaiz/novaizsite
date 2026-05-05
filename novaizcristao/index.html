@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Primário -->
+  <title>Novaiz Cristão — Estudos Bíblicos, Esboços e Evangelismo</title>
+  <meta name="description" content="Descomplicando a Bíblia através de estudos profundos, esboços práticos e reflexões teológicas. Acesse materiais exclusivos para aprofundar sua fé e pregação." />
+  <meta name="keywords" content="estudos bíblicos, esboços de pregação, evangelismo, teologia, Bíblia, cristão, pregação, Novaiz Cristão" />
+  <meta name="author" content="Igor Novaiz" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.igornovaiz.com.br/novaizcristao" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.igornovaiz.com.br/novaizcristao" />
+  <meta property="og:title" content="Novaiz Cristão — A Palavra que Transforma Vidas" />
+  <meta property="og:description" content="Estudos bíblicos profundos, esboços práticos e reflexões teológicas para aprofundar sua jornada com Cristo." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=1200&q=85" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Novaiz Cristão — A Palavra que Transforma Vidas" />
+  <meta name="twitter:description" content="Estudos bíblicos profundos, esboços práticos e reflexões teológicas." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=1200&q=85" />
+
+  <!-- Favicon SVG inline -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230a0a0f'/><text y='24' x='4' font-size='22' font-family='serif'>✦</text></svg>" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/style-cristao.css" />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Novaiz Cristão",
+    "description": "Plataforma de estudos bíblicos, esboços de pregação e evangelismo.",
+    "url": "https://www.igornovaiz.com.br/novaizcristao",
+    "sameAs": ["https://www.instagram.com/novaiz.cristao"]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ============================================================
+       MOBILE NAV OVERLAY
+       ============================================================ -->
+  <nav class="mobile-nav" id="mobileNav" role="navigation" aria-label="Menu mobile">
+    <button class="mobile-nav__close" id="mobileNavClose" aria-label="Fechar menu">&#x2715;</button>
+    <a href="#inicio" onclick="closeMobileNav()">Início</a>
+    <a href="#estudos" onclick="closeMobileNav()">Estudos</a>
+    <a href="#sobre" onclick="closeMobileNav()">Sobre</a>
+    <a href="https://www.instagram.com/novaiz.cristao" target="_blank" rel="noopener noreferrer" onclick="closeMobileNav()">Instagram</a>
+  </nav>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="header" id="header" role="banner">
+    <div class="container">
+      <div class="header__inner">
+
+        <!-- Logo -->
+        <a href="#inicio" class="header__logo" aria-label="Novaiz Cristão — Página inicial">
+          Novaiz <span>Cristão</span>
+        </a>
+
+        <!-- Nav Desktop -->
+        <nav class="header__nav" role="navigation" aria-label="Menu principal">
+          <a href="#inicio">Início</a>
+          <a href="#estudos">Estudos</a>
+          <a href="#sobre">Sobre</a>
+          <a href="https://www.instagram.com/novaiz.cristao" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </nav>
+
+        <!-- CTA Desktop -->
+        <a href="/estudos" class="btn btn-primary header__cta" aria-label="Acessar estudos bíblicos">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          Acessar Estudos
+        </a>
+
+        <!-- Hamburguer -->
+        <button class="header__hamburger" id="hamburgerBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileNav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO SECTION
+         ============================================================ -->
+    <section class="hero" id="inicio" aria-labelledby="heroTitle">
+
+      <!-- Background cinematográfico -->
+      <div class="hero__bg" role="img" aria-label="Bíblia aberta com luz cinematográfica"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero__content">
+
+          <!-- Eyebrow -->
+          <div class="hero__eyebrow" aria-label="Plataforma de estudos cristãos">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            Plataforma de Estudos Cristãos
+          </div>
+
+          <!-- Título principal H1 -->
+          <h1 class="hero__title" id="heroTitle">
+            A Palavra que<br>
+            <span class="highlight">Transforma Vidas.</span>
+          </h1>
+
+          <!-- Subtítulo -->
+          <p class="hero__subtitle">
+            Descomplicando a Bíblia através de estudos profundos, esboços práticos e reflexões teológicas que edificam a fé e equipam a pregação.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero__actions">
+            <a href="/estudos" class="btn btn-primary" aria-label="Acessar materiais de estudo bíblico">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              Acessar Estudos
+            </a>
+            <a href="https://www.instagram.com/novaiz.cristao" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="Seguir Novaiz Cristão no Instagram">
+              <!-- Instagram SVG icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              Siga no Instagram
+            </a>
+          </div>
+
+          <!-- Stats -->
+          <div class="hero__stats" aria-label="Pilares do projeto">
+            <div class="hero__stat-item">
+              <span class="hero__stat-number">Palavra</span>
+              <span class="hero__stat-label">Estudos aprofundados</span>
+            </div>
+            <div class="hero__stat-item">
+              <span class="hero__stat-number">Prática</span>
+              <span class="hero__stat-label">Esboços aplicáveis</span>
+            </div>
+            <div class="hero__stat-item">
+              <span class="hero__stat-number">100%</span>
+              <span class="hero__stat-label">Gratuito e focado em edificar</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="hero__scroll" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Explorar
+      </div>
+
+    </section>
+
+    <!-- ============================================================
+         SEÇÃO: ESTUDOS E ESBOÇOS
+         ============================================================ -->
+    <section class="studies" id="estudos" aria-labelledby="studiesTitle">
+      <div class="container">
+
+        <header class="studies__header reveal">
+          <span class="section-label">Materiais</span>
+          <h2 class="section-title" id="studiesTitle">
+            Estudos & <span>Esboços</span>
+          </h2>
+          <p class="section-subtitle">
+            Conteúdo teológico cuidadosamente preparado para todos que desejam crescer no conhecimento prático e profundo da Palavra. </p>
+        </header>
+
+        <div class="studies__grid">
+
+          <!-- Card 1 -->
+          <article class="study-card reveal reveal-delay-1" aria-label="Estudo: As Duas Naturezas de Cristo">
+            <div class="study-card__image-wrap">
+              <img
+                class="study-card__image"
+                src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=800&q=80&auto=format&fit=crop&crop=center"
+                alt="Bíblia aberta com luz cinematográfica, representando o estudo das naturezas de Cristo"
+                loading="lazy"
+                width="800"
+                height="400"
+              />
+            </div>
+            <div class="study-card__body">
+              <span class="study-card__tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+                Cristologia
+              </span>
+              <h3 class="study-card__title">As Duas Naturezas de Cristo</h3>
+              <p class="study-card__excerpt">
+                Uma análise profunda da doutrina da hipostasia — como Jesus Cristo é plenamente Deus e plenamente homem, sem confusão ou separação entre as naturezas.
+              </p>
+              <div class="study-card__footer">
+                <span class="study-card__meta">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  8 min de leitura
+                </span>
+                <a href="#" class="btn btn-outline-gold" aria-label="Ler resumo do estudo sobre as duas naturezas de Cristo">Em breve</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="study-card reveal reveal-delay-2" aria-label="Estudo: O Livro de Atos">
+            <div class="study-card__image-wrap">
+              <img
+                class="study-card__image"
+                src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80&auto=format&fit=crop&crop=center"
+                alt="Céu estrelado e luz, representando o poder do Espírito Santo no livro de Atos"
+                loading="lazy"
+                width="800"
+                height="400"
+              />
+            </div>
+            <div class="study-card__body">
+              <span class="study-card__tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+                Estudo Bíblico
+              </span>
+              <h3 class="study-card__title">O Livro de Atos: O Agir da Igreja</h3>
+              <p class="study-card__excerpt">
+                Descubra como a Igreja primitiva, guiada pelo Espírito Santo, transformou o mundo antigo — e o que esse modelo significa para a missão da Igreja hoje.
+              </p>
+              <div class="study-card__footer">
+                <span class="study-card__meta">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  12 min de leitura
+                </span>
+                <a href="#" class="btn btn-outline-gold" aria-label="Ler resumo do estudo sobre o livro de Atos">Em breve</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="study-card reveal reveal-delay-3" aria-label="Esboço: Como Estruturar sua Primeira Pregação">
+            <div class="study-card__image-wrap">
+              <img
+                class="study-card__image"
+                src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&q=80&auto=format&fit=crop&crop=center"
+                alt="Caderno aberto com anotações, representando a preparação de um esboço de pregação"
+                loading="lazy"
+                width="800"
+                height="400"
+              />
+            </div>
+            <div class="study-card__body">
+              <span class="study-card__tag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+                Pregação
+              </span>
+              <h3 class="study-card__title">Como Estruturar sua Primeira Pregação</h3>
+              <p class="study-card__excerpt">
+                Um guia prático e objetivo para quem está começando a pregar: da escolha do texto bíblico à construção de pontos claros e uma conclusão que move corações.
+              </p>
+              <div class="study-card__footer">
+                <span class="study-card__meta">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  10 min de leitura
+                </span>
+                <a href="#" class="btn btn-outline-gold" aria-label="Ler resumo do esboço sobre como estruturar uma pregação">Em breve</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- CTA Ver todos -->
+        <div class="studies__cta reveal">
+          <a href="https://www.instagram.com/novaiz.cristao" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="Ver todos os estudos no Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            Ver postagens do nosso Instagram
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SEÇÃO: VERSÍCULO / CITAÇÃO
+         ============================================================ -->
+    <section class="verse-section" id="sobre" aria-labelledby="verseQuote">
+      <div class="verse-section__bg" role="img" aria-label="Paisagem noturna estrelada"></div>
+      <div class="verse-section__overlay" aria-hidden="true"></div>
+      <div class="container">
+        <div class="verse-section__content reveal">
+
+          <!-- Ícone de livro decorativo -->
+          <svg class="verse-section__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+          </svg>
+
+          <blockquote>
+            <p class="verse-section__quote" id="verseQuote">
+              Lâmpada para os meus pés é a tua palavra, e luz para o meu caminho.
+            </p>
+            <footer class="verse-section__ref">
+              <cite>Salmos 119:105</cite>
+            </footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SEÇÃO: NEWSLETTER / CAPTURA DE LEADS
+         ============================================================ -->
+    <section class="newsletter" id="newsletter" aria-labelledby="newsletterTitle">
+      <div class="container">
+        <div class="newsletter__inner reveal">
+
+          <!-- Ícone -->
+          <div class="newsletter__icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+
+          <h2 class="newsletter__title" id="newsletterTitle">
+            Receba novas postagens todos os dias.
+          </h2>
+
+          <p class="newsletter__subtitle">
+            Siga-nos no Instagram para não perder.
+          </p>
+
+          <div class="studies__cta reveal">
+          <a href="https://www.instagram.com/novaiz.cristao" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="Ver todos os estudos no Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            Seguir no Instagram
+          </a>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+
+        <!-- Logo + tagline -->
+        <div>
+          <p class="footer__logo">Novaiz <span>Cristão</span></p>
+          <p class="footer__tagline">Espalhando a luz de Cristo no mundo digital.</p>
+        </div>
+
+        <!-- Links -->
+        <nav class="footer__links" aria-label="Links do rodapé">
+          <a href="#inicio">Início</a>
+          <a href="#estudos">Estudos</a>
+          <a href="#newsletter">Newsletter</a>
+          <a href="https://www.instagram.com/novaiz.cristao" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </nav>
+
+        <!-- Social -->
+        <div class="footer__social">
+          <a
+            href="https://www.instagram.com/novaiz.cristao"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__social-link"
+            aria-label="Seguir @novaiz.cristao no Instagram"
+          >
+            <!-- Instagram icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            @novaiz.cristao
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer__divider" aria-hidden="true"></div>
+
+      <p class="footer__copy" style="text-align:center; padding-top:1.5rem;">
+        &copy; 2026 Igor Novaiz. Todos os direitos reservados.
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       JAVASCRIPT — Header scroll, mobile nav, reveal animations, form
+       ============================================================ -->
+  <script>
+    /* ── Header scroll effect ── */
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    /* ── Mobile nav ── */
+    const hamburgerBtn  = document.getElementById('hamburgerBtn');
+    const mobileNav     = document.getElementById('mobileNav');
+    const mobileNavClose = document.getElementById('mobileNavClose');
+
+    hamburgerBtn.addEventListener('click', () => {
+      mobileNav.classList.add('open');
+      hamburgerBtn.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+    });
+
+    mobileNavClose.addEventListener('click', closeMobileNav);
+
+    function closeMobileNav() {
+      mobileNav.classList.remove('open');
+      hamburgerBtn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+
+    /* Fechar ao pressionar Escape */
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeMobileNav();
+    });
+
+    /* ── Scroll reveal (IntersectionObserver) ── */
+    const revealElements = document.querySelectorAll('.reveal');
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.12,
+      rootMargin: '0px 0px -40px 0px'
+    });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    /* ── Form submit handler ── */
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('.newsletter__submit');
+      const name = document.getElementById('inputName').value.trim();
+
+      btn.textContent = '✓ Cadastrado com sucesso!';
+      btn.style.background = 'linear-gradient(135deg, #2d5be3, #4f7aff)';
+      btn.disabled = true;
+
+      /* Reset após 4 segundos */
+      setTimeout(() => {
+        btn.innerHTML = 'Quero Receber <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>';
+        btn.style.background = '';
+        btn.disabled = false;
+        e.target.reset();
+      }, 4000);
+    }
+  </script>
+
+</body>
+</html>
