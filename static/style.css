@@ -288,7 +288,7 @@ img {
 .navbar .logo-text {
   font-family: 'Sora', sans-serif;
   font-weight: 600;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
 }
 
 .navbar .nav-links {
@@ -1362,12 +1362,12 @@ img {
 .footer .brand .name {
   font-family: 'Sora', sans-serif;
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 1.5rem;
 }
 
 .footer .copy {
   font-family: 'Space Grotesk', monospace;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   color: var(--fg-muted);
   display: flex;
   align-items: center;
@@ -1382,8 +1382,8 @@ img {
 }
 
 .footer .social-links a {
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
