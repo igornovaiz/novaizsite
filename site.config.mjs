@@ -3,7 +3,7 @@ export default {
   nome: "Igor Novaiz",
   url: "https://igornovaiz.com.br",
   descricao:
-    "Igor Novaiz: empreendedor em São Paulo. Toco a CNH em Dia, criei o Doutor Drive e escrevo sobre negócios, tecnologia e o que aprendo no caminho.",
+    "Igor Novaiz: empreendedor em São Paulo. Toco uma consultoria em direito de trânsito, crio sistemas de gestão e escrevo sobre negócios, tecnologia e o que aprendo no caminho.",
   email: "novaizigor@gmail.com",
   redes: [
     { nome: "Instagram", url: "https://instagram.com/igornovaiz" },
@@ -14,7 +14,7 @@ export default {
     selo: "Empreendedor em São Paulo",
     // Pode ter HTML: o trecho em <span class="azul"> sai em azul.
     titulo: 'Eu construo negócios <span class="azul">e a tecnologia que faz eles rodarem.</span>',
-    sub: "Toco a CNH em Dia, criei o Doutor Drive e escrevo sobre negócios, tecnologia e o que aprendo no caminho.",
+    sub: "Sou sócio de uma consultoria em direito de trânsito, crio sistemas de gestão sob medida e escrevo sobre negócios, tecnologia e o que aprendo no caminho.",
   },
   faco: [
     {
@@ -34,37 +34,40 @@ export default {
     },
   ],
   // Cada item vira um card em "Projetos" e um ponto no mapa do topo (os três primeiros).
+  // Sem nome de empresa: descreva o ramo. Com `url`, o card ganha botão.
   trabalho: [
     {
-      nome: "CNH em Dia Soluções",
+      nome: "Consultoria em direito de trânsito",
       papel: "Sócio e gestor",
-      texto: "Defesa de multas, suspensão e cassação da CNH. A operação que eu toco no dia a dia, do comercial ao jurídico.",
+      icone: "cnh",
+      texto: "Defesa de multas, suspensão e cassação da CNH. Toco a operação no dia a dia, do comercial ao jurídico.",
       url: "",
       status: "ativo",
     },
     {
-      nome: "Doutor Drive",
+      nome: "Sistema de gestão",
       papel: "Criei e mantenho",
-      texto: "Sistema de gestão para empresas de direito de trânsito: vendas, prazos jurídicos, documentos e contratos num lugar só.",
-      url: "https://www.doutordrive.com.br",
-      acao: "Entrar no sistema",
+      icone: "sistema",
+      texto: "Software sob medida para empresas de serviços: vendas, prazos jurídicos, documentos e contratos num lugar só.",
+      url: "",
       status: "ativo",
       destaque: true,
     },
     {
       nome: "Próximo negócio",
       papel: "Em construção",
+      icone: "novo",
       texto: "Ainda não tem nome público. Quando tiver, aparece aqui primeiro.",
       url: "",
       status: "em-breve",
     },
   ],
   agora: {
-    atualizado: "2026-10-31",
+    atualizado: "2026-11-02",
     itens: [
-      "Evoluindo o Doutor Drive com base no uso de todo dia.",
-      "Organizando o jurídico da CNH em Dia para nenhum prazo passar.",
-      "Recomeçando este site, agora como um lugar para escrever.",
+      "Evoluindo um sistema de gestão com base no uso de todo dia.",
+      "Organizando o jurídico da operação para nenhum prazo passar.",
+      "Construindo o Novaiz, meu assistente pessoal com inteligência artificial.",
     ],
   },
 };

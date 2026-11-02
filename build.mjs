@@ -59,7 +59,6 @@ function pagina({ titulo, descricao, caminho, atual, corpo }) {
   const tituloCompleto = titulo ? `${titulo} | ${cfg.nome}` : `${cfg.nome} | Negócios e tecnologia`;
   const link = (href, nome, extra = "") =>
     `<a class="lnk ${extra}" href="${href}"${atual === href ? ' aria-current="page"' : ""}>${nome}</a>`;
-  const drive = cfg.trabalho.find((t) => t.nome === "Doutor Drive");
   return `<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -86,9 +85,7 @@ function pagina({ titulo, descricao, caminho, atual, corpo }) {
 <header class="topo" id="topo">
   <div class="miolo">
     <a class="marca" href="/">${iconeMarca}${esc(cfg.nome)}</a>
-    <nav aria-label="Principal">${link("/#projetos", "Projetos", "some")}${link("/blog/", "Blog")}${link("/#contato", "Contato", "some")}${
-    drive?.url ? `<a class="btn btn-azul btn-pequeno" href="${drive.url}">Doutor Drive</a>` : ""
-  }</nav>
+    <nav aria-label="Principal">${link("/#projetos", "Projetos", "some")}${link("/blog/", "Blog")}${link("/#contato", "Contato")}</nav>
   </div>
 </header>
 <main id="conteudo">
@@ -121,10 +118,9 @@ const cardsPosts = (lista) =>
 </div>`;
 
 // Página inicial
-const icTrabalho = { "CNH em Dia Soluções": "cnh", "Doutor Drive": "sistema" };
 const [t1, t2, t3] = cfg.trabalho;
 const no = (t, classe) => {
-  const conteudo = `<span class="ic">${ic(icTrabalho[t.nome] || "novo")}</span><span>${esc(t.nome)}<small>${esc(t.papel)}</small></span>`;
+  const conteudo = `<span class="ic">${ic(t.icone || "novo")}</span><span>${esc(t.nome)}<small>${esc(t.papel)}</small></span>`;
   const cls = `no ${classe}${t.status === "em-breve" ? " breve" : ""}`;
   return t.url ? `<a class="${cls}" href="${t.url}">${conteudo}</a>` : `<div class="${cls}">${conteudo}</div>`;
 };
@@ -145,10 +141,10 @@ const home = `
     <div class="mapa" aria-label="Igor no centro, ligado a ${cfg.trabalho.map((t) => t.nome).join(", ")}">
       <svg class="linhas" viewBox="0 0 400 400" aria-hidden="true">
         <circle class="orbita" cx="200" cy="200" r="164"/>
-        <path class="rota" d="M200 200 L200 36"/><path class="rota" d="M200 200 L344 264"/><path class="rota" d="M200 200 L56 264"/>
+        <path class="rota" d="M200 200 L200 36"/><path class="rota" d="M200 200 L304 280"/><path class="rota" d="M200 200 L96 280"/>
         <path class="pulso" pathLength="100" d="M200 200 L200 36"/>
-        <path class="pulso p2" pathLength="100" d="M200 200 L344 264"/>
-        <path class="pulso p3" pathLength="100" d="M200 200 L56 264"/>
+        <path class="pulso p2" pathLength="100" d="M200 200 L304 280"/>
+        <path class="pulso p3" pathLength="100" d="M200 200 L96 280"/>
       </svg>
       <div class="no centro" style="left:50%;top:50%">IN</div>
       ${no(t1, "n1")}
