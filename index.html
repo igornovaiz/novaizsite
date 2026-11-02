@@ -1,489 +1,172 @@
-<!DOCTYPE html> 
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <title>Igor Novaiz - Nvz</title>
-  <meta name="description" content="Igor Novaiz — Empresário, Entusiasta de Tecnologia e Gamer. Construindo o futuro digital." />
-  <meta name="theme-color" content="#0B0F1A" />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Sora:wght@400;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="/static/style.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Igor Novaiz | Negócios e tecnologia</title>
+<meta name="description" content="Igor Novaiz: empreendedor em São Paulo. Toco a CNH em Dia, criei o Doutor Drive e escrevo sobre negócios, tecnologia e o que aprendo no caminho.">
+<link rel="canonical" href="https://igornovaiz.com.br/">
+<meta property="og:title" content="Igor Novaiz | Negócios e tecnologia">
+<meta property="og:description" content="Igor Novaiz: empreendedor em São Paulo. Toco a CNH em Dia, criei o Doutor Drive e escrevo sobre negócios, tecnologia e o que aprendo no caminho.">
+<meta property="og:url" content="https://igornovaiz.com.br/">
+<meta property="og:locale" content="pt_BR">
+<meta name="theme-color" content="#05070c">
+<link rel="icon" href="/assets/icone.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Blog de Igor Novaiz" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+<script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header class="topo" id="topo">
+  <div class="miolo">
+    <a class="marca" href="/"><svg class="marca-icone" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#2563eb"/><path d="M10 23V9l12 14V9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>Igor Novaiz</a>
+    <nav aria-label="Principal"><a class="lnk some" href="/#projetos">Projetos</a><a class="lnk " href="/blog/">Blog</a><a class="lnk some" href="/#contato">Contato</a><a class="btn btn-azul btn-pequeno" href="https://www.doutordrive.com.br">Doutor Drive</a></nav>
+  </div>
+</header>
+<main id="conteudo">
 
-<!-- ==================== NAVBAR ==================== -->
-<nav class="navbar" id="navbar">
-  <div class="container">
-    <div class="inner">
-      <a href="#hero" class="logo">
-        <span class="logo-text">Igor <span class="text-gradient-blue">Novaiz</span></span>
-      </a>
-      <div class="nav-links">
-        <a href="#hero">Inicio</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#skills">Habilidades</a>
-        <a href="#contato">Contato</a>
+<section class="hero">
+  <div class="brilho" aria-hidden="true"></div>
+  <div class="miolo">
+    <div class="hero-texto">
+      <span class="selo"><span class="ponto"></span>Empreendedor em São Paulo</span>
+      <h1>Eu construo negócios <span class="azul">e a tecnologia que faz eles rodarem.</span></h1>
+      <p class="sub">Toco a CNH em Dia, criei o Doutor Drive e escrevo sobre negócios, tecnologia e o que aprendo no caminho.</p>
+      <div class="acoes">
+        <a class="btn btn-azul" href="#projetos">Ver meus projetos <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-borda" href="/blog/">Ler o blog</a>
       </div>
-      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
-      </button>
     </div>
-  </div>
-  <div class="mobile-menu" id="mobileMenu">
-    <div class="container" style="padding-top:1rem;padding-bottom:1rem;display:flex;flex-direction:column;gap:0.25rem;">
-      <a href="#hero">Inicio</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#skills">Habilidades</a>
-      <a href="#contato">Contato</a>
-    </div>
-  </div>
-</nav>
-
-<!-- ==================== HERO ==================== -->
-<section class="hero" id="hero">
-  <!-- Background -->
-  <div class="hero-bg">
-    <img src="images/hero-bg.png" alt="" />
-    <div class="overlay"></div>
-  </div>
-  <!-- Orbs -->
-  <div class="hero-orb orb-1"></div>
-  <div class="hero-orb orb-2"></div>
-  <div class="hero-orb orb-3"></div>
-
-  <!-- Content -->
-  <div class="hero-content container"> 
-    <!-- Title -->
-    <h1>
-      <span class="line-1" style="margin-top: 80px;">Igor</span>
-      <span class="line-2 text-gradient-blue">Novaiz</span>
-    </h1>
-
-    <!-- Subtitle -->
-   <p class="hero-subtitle">
-        Comunicação, Persuasão e Comportamento Humano | Cursando Ciências Contábeis | Entusiasta Da Tecnologia.<br />
-    </p>
-
-    <!-- Social Links -->
-    <div class="hero-socials">
-      <a href="https://github.com/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="glass-card">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
-      </a>
-      <a href="https://linkedin.com/in/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="glass-card">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-      </a>
-      <a href="https://instagram.com/novaiz_12" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="glass-card">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-      </a>
+    <div class="mapa" aria-label="Igor no centro, ligado a CNH em Dia Soluções, Doutor Drive, Próximo negócio">
+      <svg class="linhas" viewBox="0 0 400 400" aria-hidden="true">
+        <circle class="orbita" cx="200" cy="200" r="164"/>
+        <path class="rota" d="M200 200 L200 36"/><path class="rota" d="M200 200 L344 264"/><path class="rota" d="M200 200 L56 264"/>
+        <path class="pulso" pathLength="100" d="M200 200 L200 36"/>
+        <path class="pulso p2" pathLength="100" d="M200 200 L344 264"/>
+        <path class="pulso p3" pathLength="100" d="M200 200 L56 264"/>
+      </svg>
+      <div class="no centro" style="left:50%;top:50%">IN</div>
+      <div class="no n1"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M6 16c.6-1.4 1.7-2 3-2s2.4.6 3 2M14 10h4M14 13h3"/></svg></span><span>CNH em Dia Soluções<small>Sócio e gestor</small></span></div>
+      <a class="no n2" href="https://www.doutordrive.com.br"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg></span><span>Doutor Drive<small>Criei e mantenho</small></span></a>
+      <div class="no n3 breve"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></svg></span><span>Próximo negócio<small>Em construção</small></span></div>
     </div>
   </div>
 </section>
 
-<!-- Divider -->
-<div class="container"><div class="section-divider"></div></div>
-
-<!-- ==================== ABOUT ==================== -->
-<section class="about" id="sobre">
-  <div class="container">
-    <!-- Section Label -->
-    <div class="section-label reveal">
-      <span class="num">01</span>
-      <span class="line"></span>
-      <span class="text">Sobre Mim</span>
+<section class="secao secao-clara" aria-labelledby="t-faco">
+  <div class="miolo">
+    <div class="cab revela">
+      <h2 id="t-faco">O que eu faço</h2>
+      <p>Três frentes que se completam: tocar a operação, construir a tecnologia e conversar com quem compra.</p>
     </div>
-
-    <div class="about-grid">
-      <!-- Image -->
-      <div class="about-image reveal">
-        <div class="glow-bg"></div>
-        <img src="images/profile-abstract.png" alt="Igor Novaiz — Seção Sobre" />
-      </div>
-
-      <!-- Text -->
-      <div class="about-text reveal">
-        <h2>Quem sou, o que faço e...<br><span class="text-gradient-blue">O que sei?</span></h2>
-
-          <p><strong>Quem sou:</strong> Sou Igor Novaiz. Um jovem nascido nos anos 2000, passei por uma profunda mudança de mentalidade e perspectiva muito cedo. Logo aos 18 anos, aprendi a blindar minha mente, a lidar com a ansiedade e a definir meus princípios e valores de forma inegociável. Nasceu ali, também, uma intensa ambição por construir riqueza e prosperidade. Aos 19, transformei essa vontade em ação, lapidando minhas habilidades de vendas, comunicação e persuasão, tanto no ambiente digital quanto no presencial.</p>
-
-          <p><strong>O que faço:</strong> Atualmente, gerencio a minha própria consultoria na área de Direito de Trânsito e curso Ciências Contábeis. Leio bastante, sempre imerso em novos livros sobre comunicação, vendas e comportamento humano. Como em toda jornada real, enfrentei percalços: o ano de 2026 me trouxe o peso de algumas decisões ruins, mas foi exatamente essa vivência que me permitiu recalcular a rota, retomar as rédeas da minha trajetória e seguir em frente de forma mais madura e estratégica.</p>
-
-          <p><strong>O que sei:</strong> Para ir direto ao ponto e não me estender: sei como me comunicar com clareza. Sei como persuadir, como vender e como conduzir ideias com várias pessoas simultaneamente, além de ter grande facilidade em ensinar de forma simples aquilo que parece complexo. Na bagagem técnica, possuo conhecimentos intermediários em Marketing, estou construindo minha base em Ciências Contábeis e sou um verdadeiro entusiasta do mundo da tecnologia.</p>
-        <!-- Stats -->
-<div class="about-stats">
-  
-  <div class="stat glass-card reveal">
-    <div class="label">Especialidade Principal</div>
-    <div class="value"><span class="text-gradient-blue">Vendas & Persuasão</span></div>
-  </div>
-  
-  <div class="stat glass-card reveal">
-    <div class="label">Foco de Atuação</div>
-    <div class="value"><span class="text-gradient-blue">Gestão & Consultoria</span></div>
-  </div>
-  
-  <div class="stat glass-card reveal">
-    <div class="label">Descompressão</div>
-    <div class="value"><span class="text-gradient-blue">Leitura & Tecnologia</span></div>
-  </div>
-  
-  <div class="stat glass-card reveal">
-    <div class="label">Soft Skill</div>
-    <div class="value"><span class="text-gradient-blue">Comunicação Estratégica</span></div>
-  </div>
-  
-</div>
-      </div>
+    <div class="fazeres">
+      <article class="fazer revela" style="--atraso:0s">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h18M6 16V10M11 16V6M16 16v-4M20 16V8"/></svg></div>
+        <h3>Gestão de negócios</h3>
+        <p>Operação, financeiro, equipe e prazos. Faço a empresa funcionar no dia a dia, com processo e número na mão.</p>
+      </article>
+      <article class="fazer revela" style="--atraso:0.08s">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 8-5 4 5 4M16 8l5 4-5 4M14 4l-4 16"/></svg></div>
+        <h3>Tecnologia</h3>
+        <p>Sistemas sob medida para o negócio: vendas, documentos, contratos e painéis, tudo integrado e no ar.</p>
+      </article>
+      <article class="fazer revela" style="--atraso:0.16s">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/></svg></div>
+        <h3>Vendas e atendimento</h3>
+        <p>Comunicação clara e negociação. Sei vender, treinar quem vende e cuidar do cliente depois da venda.</p>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- Divider -->
-<div class="container"><div class="section-divider purple"></div></div>
-
-<!-- ==================== SKILLS ==================== -->
-<section class="skills" id="skills">
-  <div class="skills-bg-accent"></div>
-  <div class="container" style="position:relative;">
-    <!-- Section Label -->
-    <div class="section-label reveal">
-      <span class="num">02</span>
-      <span class="line"></span>
-      <span class="text">Habilidades</span>
+<section class="secao secao-gelo" id="projetos" aria-labelledby="t-projetos">
+  <div class="miolo">
+    <div class="cab revela">
+      <h2 id="t-projetos">Projetos</h2>
+      <p>Onde eu estou trabalhando agora e o que vem por aí.</p>
     </div>
-
-    <h2 class="section-title reveal">O que eu <span class="text-gradient-blue">trago para a mesa</span></h2>
-
-   <!-- Skills Grid -->
-    <div class="skills-grid">
-      
-      <!-- Card 1: Vendas & Persuasão -->
-      <div class="skill-card glass-card reveal">
-        <div class="card-header">
-          <div class="card-icon bg-blue">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-          </div>
-          <h3 class="card-title">Vendas & Persuasão</h3>
-        </div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Negociação Estratégica</span><span class="bar-pct">95%</span></div><div class="bar-track"><div class="bar-fill" style="width:95%"></div></div></div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Comunicação Assertiva</span><span class="bar-pct">95%</span></div><div class="bar-track"><div class="bar-fill" style="width:95%"></div></div></div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Gatilhos Mentais</span><span class="bar-pct">90%</span></div><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div></div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Fechamento (Closing)</span><span class="bar-pct">90%</span></div><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div></div>
-      </div>
-
-      <!-- Card 2: Gestão & Consultoria -->
-      <div class="skill-card glass-card reveal">
-        <div class="card-header">
-          <div class="card-icon bg-purple">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
-          </div>
-          <h3 class="card-title">Gestão & Consultoria</h3>
-        </div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Consultoria de Trânsito</span><span class="bar-pct">90%</span></div><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div></div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Gestão de Crises</span><span class="bar-pct">85%</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Ciências Contábeis (Base)</span><span class="bar-pct">65%</span></div><div class="bar-track"><div class="bar-fill" style="width:65%"></div></div></div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Análise de Cenários</span><span class="bar-pct">85%</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
-      </div>
-
-      <!-- Card 3: Marketing & Conhecimento -->
-      <div class="skill-card glass-card reveal">
-        <div class="card-header">
-          <div class="card-icon bg-yellow">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
-          </div>
-          <h3 class="card-title">Marketing & Expansão</h3>
-        </div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Comportamento Humano</span><span class="bar-pct">90%</span></div><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div></div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Transmissão de Conhecimento</span><span class="bar-pct">85%</span></div><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div></div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Marketing Digital (Intermediário)</span><span class="bar-pct">60%</span></div><div class="bar-track"><div class="bar-fill" style="width:60%"></div></div></div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Adaptação Tecnológica</span><span class="bar-pct">80%</span></div><div class="bar-track"><div class="bar-fill" style="width:80%"></div></div></div>
-      </div>
-
-      <!-- Card 4: Soft Skills -->
-      <div class="skill-card glass-card reveal">
-        <div class="card-header">
-          <div class="card-icon bg-mixed">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-          </div>
-          <h3 class="card-title">Soft Skills</h3>
-        </div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Resiliência e Blindagem Mental</span><span class="bar-pct">95%</span></div><div class="bar-track"><div class="bar-fill" style="width:95%"></div></div></div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Controle de Ansiedade</span><span class="bar-pct">90%</span></div><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div></div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Oratória Dinâmica</span><span class="bar-pct">90%</span></div><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div></div>
-        <div class="skill-bar"><div class="bar-header"><span class="bar-name">Recálculo de Rota</span><span class="bar-pct">95%</span></div><div class="bar-track"><div class="bar-fill" style="width:95%"></div></div></div>
-      </div>
-    </div>
-
-    <!-- Tools -->
-    <div class="tools-row reveal">
-      <p class="label">Ferramentas & Arsenal</p>
-      <div class="tags">
-        <div class="tag glass-card">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
-          Leitura Constante
-        </div>
-        <div class="tag glass-card">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-          Comunicação
-        </div>
-        <div class="tag glass-card">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
-          Gestão de Processos
-        </div>
-        <div class="tag glass-card">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-          Produtividade
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Divider -->
-<div class="container"><div class="section-divider"></div></div>
-
-<!-- ==================== PROJECTS ==================== -->
-<section class="projects" id="projetos">
-  <div class="container">
-    <!-- Section Label -->
-    <div class="section-label reveal">
-      <span class="num">03</span>
-      <span class="line"></span>
-      <span class="text">Atuação & Projetos</span>
-    </div>
-
-    <h2 class="section-title reveal">Construindo <span class="text-gradient-blue">resultados</span>, um projeto de cada vez</h2>
-
-   <div class="projects-grid">
-      <!-- Featured Project -->
-      <div class="project-featured glass-card reveal">
-        <div class="image-wrap">
-          <!-- Sugestão: Trocar tech-abstract.png por uma imagem que remeta a negócios, escritório, ou um aperto de mãos -->
-          <img src="images/tech-abstract.png" alt="Gestão e Negócios" />
-          <div class="img-overlay"></div>
-          <div class="status-badge glass-card">
-            <span class="dot" style="background-color: #22c55e;"></span>
-            <span class="text">Operação Ativa</span>
-          </div>
-        </div>
-        <div class="body">
-          <div class="header">
-            <div class="left">
-              <div class="icon-wrap">
-                <!-- Ícone de Escudo/Segurança (Remetendo à consultoria e direito) -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-              </div>
-              <h3>Consultoria em Direito de Trânsito</h3>
-            </div>
-          </div>
-          <p>Meu principal projeto no campo de batalha. Faço a gestão completa da operação: desde a prospecção ativa de clientes e fechamento de contratos de alto valor, até a análise de cenários e gerenciamento de crises reais.</p>
-          <div class="tag-list">
-            <span class="tag">Gestão Comercial</span>
-            <span class="tag">Negociação (B2C/B2B)</span>
-            <span class="tag">Direito de Trânsito</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Small Cards Column -->
-      <div style="display:flex;flex-direction:column;gap:1.25rem;">
-
-        <!-- Projeto 1: Comportamento e Leitura -->
-        <div class="project-small glass-card reveal">
-          <div class="card-top">
-            <div class="icon-wrap">
-              <!-- Ícone de Livro -->
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
-            </div>
-            <span class="status soon">Estudo Contínuo</span>
-          </div>
-          <h3>Estudos sobre Comportamento Humano</h3>
-          <p>Imersão assídua em literatura de alto nível. Transformo a teoria dos livros sobre inteligência emocional, oratória e psicologia em ações práticas para o ambiente de negócios e para relacionamentos do dia a dia.</p>
-          <div class="tag-list">
-            <span class="tag">Leitura Constante</span>
-            <span class="tag">Psicologia</span>
-            <span class="tag">Soft Skills</span>
-          </div>
-        </div>
-
-        <!-- Projeto 2: Contabilidade e Visão de Negócios -->
-        <div class="project-small glass-card reveal">
-          <div class="card-top">
-            <div class="icon-wrap">
-              <!-- Ícone de Gráfico/Crescimento -->
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
-            </div>
-            <span class="status soon">Em Evolução</span>
-          </div>
-          <h3>Engenharia Financeira & Contábil</h3>
-          <p>Aplicação dos conhecimentos acadêmicos em Ciências Contábeis para estruturação de fluxo de caixa, precificação de serviços e análise de viabilidade e saúde dos negócios.</p>
-          <div class="tag-list">
-            <span class="tag">Ciências Contábeis</span>
-            <span class="tag">Visão Sistêmica</span>
-            <span class="tag">Finanças</span>
-          </div>
-        </div>
+    <div class="projetos">
+      <article class="projeto revela" style="--atraso:0s">
+        <span class="status">Ativo</span>
+        <h3>CNH em Dia Soluções</h3>
+        <span class="papel">Sócio e gestor</span>
+        <p>Defesa de multas, suspensão e cassação da CNH. A operação que eu toco no dia a dia, do comercial ao jurídico.</p>
         
-      </div>
+      </article>
+      <article class="projeto revela destaque" style="--atraso:0.08s">
+        <span class="status">Ativo</span>
+        <h3>Doutor Drive</h3>
+        <span class="papel">Criei e mantenho</span>
+        <p>Sistema de gestão para empresas de direito de trânsito: vendas, prazos jurídicos, documentos e contratos num lugar só.</p>
+        <a class="btn btn-azul" href="https://www.doutordrive.com.br">Entrar no sistema <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </article>
+      <article class="projeto revela breve" style="--atraso:0.16s">
+        <span class="status">Em construção</span>
+        <h3>Próximo negócio</h3>
+        <span class="papel">Em construção</span>
+        <p>Ainda não tem nome público. Quando tiver, aparece aqui primeiro.</p>
+        
+      </article>
     </div>
   </div>
 </section>
 
-<!-- Divider -->
-<div class="container"><div class="section-divider purple"></div></div>
-
-<!-- ==================== CONTACT ==================== -->
-<section class="contact" id="contato">
-  <div class="contact-bg"></div>
-  <div class="container" style="position:relative;">
-    <!-- Section Label -->
-    <div class="section-label reveal">
-      <span class="num">04</span>
-      <span class="line"></span>
-      <span class="text">Contato</span>
+<section class="secao" aria-labelledby="t-agora">
+  <div class="miolo agora">
+    <div class="cab revela">
+      <h2 id="t-agora">Agora</h2>
+      <p>No que estou focado neste momento.</p>
+      <p class="data">Atualizado em 31 out 2026</p>
     </div>
+    <ul><li class="revela" style="--atraso:0s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Evoluindo o Doutor Drive com base no uso de todo dia.</span></li><li class="revela" style="--atraso:0.08s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Organizando o jurídico da CNH em Dia para nenhum prazo passar.</span></li><li class="revela" style="--atraso:0.16s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Recomeçando este site, agora como um lugar para escrever.</span></li></ul>
+  </div>
+</section>
 
-    <h2 class="section-title reveal">O que acha de nos <span class="text-gradient-blue">Conectarmos</span>?</h2>
-
-    <div class="contact-grid">
-      <!-- Info -->
-      <div class="contact-info reveal">
-        <p>Seja para discutir um novo projeto, debater sobre comportamento humano e persuasão, ou apenas tomar um café virtual para expandir o networking. O convite está feito, e estou sempre aberto a conexões de alto nível.</p>
-        <div class="contact-details">
-          <div class="detail">
-            <div class="icon-wrap glass-card">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-            </div>
-            <div class="info">
-              <div class="label">Email</div>
-              <div class="value">novaizigor@gmail.com</div>
-            </div>
-          </div>
-          <div class="detail">
-            <div class="icon-wrap glass-card">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            </div>
-            <div class="info">
-              <div class="label">Localização</div>
-              <div class="value">São Paulo, Brasil</div>
-            </div>
-          </div>
-        </div>
-
-        <p class="contact-socials-label">Redes Sociais</p>
-        <div class="contact-socials">
-          <a href="https://github.com/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="glass-card">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
-          </a>
-          <a href="https://linkedin.com/in/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="glass-card">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-          </a>
-          <a href="https://instagram.com/novaiz_12" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="glass-card">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-          </a>
-        </div>
+<section class="secao" style="padding-top:0" aria-labelledby="t-blog">
+  <div class="miolo">
+    <div class="cab-linha">
+      <div class="cab revela">
+        <h2 id="t-blog">Do blog</h2>
+        <p>Negócios, tecnologia e o que eu aprendo no caminho.</p>
       </div>
+      
+    </div>
+    <div class="cards-posts">
+  <a class="card-post revela" style="--atraso:0s" href="/blog/recomecando/">
+    <time datetime="2026-10-31">31 out 2026</time>
+    <h3>Apaguei meu site e comecei de novo</h3>
+    <p>O site antigo falava de alguém que eu já não sou. Este aqui é para escrever.</p>
+    <span class="ler">Ler texto <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+  </a>
+</div>
+  </div>
+</section>
+
+<section class="secao" style="padding-top:0" id="contato" aria-labelledby="t-contato">
+  <div class="miolo">
+    <div class="contato revela">
+      <div style="position:relative;z-index:1">
+        <h2 id="t-contato">Vamos conversar?</h2>
+        <p>Parcerias, projetos, uma ideia de negócio ou só trocar experiência. Respondo por e-mail.</p>
+      </div>
+      <div class="lado">
+        <a class="btn btn-branco" href="mailto:novaizigor@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> novaizigor@gmail.com</a>
+        <div class="redes"><a href="https://instagram.com/igornovaiz" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></a><a href="https://linkedin.com/in/igornovaiz" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg></a><a href="https://github.com/igornovaiz" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-4 1.5-4-2-6-2.5M15 21v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a></div>
       </div>
     </div>
   </div>
 </section>
-
-<!-- ==================== FOOTER ==================== -->
-<footer class="footer">
-  <div class="top-line"></div>
-  <div class="container">
-    <div class="inner">
-      <div class="brand">
-        <span class="name">Igor <span class="text-gradient-blue">Novaiz</span></span>
-      </div>
-      <p class="copy">
-        &copy; 2026 Igor Novaiz. Feito com
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-        e muito cafe.
-      </p>
-      <div class="social-links">
-        <a href="https://github.com/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="glass-card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
-        </a>
-        <a href="https://linkedin.com/in/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="glass-card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-        </a>
-        <a href="https://instagram.com/igornovaiz" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="glass-card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-        </a>
-      </div>
-    </div>
+</main>
+<footer class="rodape">
+  <div class="miolo">
+    <span>© 2026 Igor Novaiz. São Paulo, Brasil.</span>
+    <span><a href="/blog/">Blog</a> · <a href="/feed.xml">RSS</a> · <a href="mailto:novaizigor@gmail.com">novaizigor@gmail.com</a></span>
   </div>
 </footer>
-
-<!-- ==================== JAVASCRIPT ==================== -->
-<script>
-// Navbar scroll effect
-const navbar = document.getElementById('navbar');
-window.addEventListener('scroll', () => {
-  navbar.classList.toggle('scrolled', window.scrollY > 40);
-});
-
-// Mobile menu toggle
-const mobileToggle = document.getElementById('mobileToggle');
-const mobileMenu = document.getElementById('mobileMenu');
-mobileToggle.addEventListener('click', () => {
-  mobileMenu.classList.toggle('open');
-});
-
-// Close mobile menu on link click
-mobileMenu.querySelectorAll('a').forEach(link => {
-  link.addEventListener('click', () => mobileMenu.classList.remove('open'));
-});
-
-// Smooth scroll for all anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function(e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-    if (target) target.scrollIntoView({ behavior: 'smooth' });
-  });
-});
-
-// Intersection Observer for reveal animations
-const observerOptions = { threshold: 0.1, rootMargin: '-50px' };
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      observer.unobserve(entry.target);
-    }
-  });
-}, observerOptions);
-
-document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => {
-  observer.observe(el);
-});
-
-// Contact form
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  const btn = this.querySelector('.submit-btn');
-  const originalText = btn.innerHTML;
-  btn.innerHTML = 'Enviando...';
-  btn.disabled = true;
-  setTimeout(() => {
-    btn.innerHTML = 'Mensagem Enviada! ✓';
-    btn.style.background = 'linear-gradient(135deg, #22C55E, #16A34A)';
-    setTimeout(() => {
-      btn.innerHTML = originalText;
-      btn.style.background = '';
-      btn.disabled = false;
-      this.reset();
-    }, 2500);
-  }, 1500);
-});
-</script>
-
+<script src="/assets/site.js" defer></script>
 </body>
 </html>
